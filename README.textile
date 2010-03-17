@@ -8,16 +8,16 @@ h2. Example
 <p>Testing with YUI3 Loader metadata:</p>
 
 <pre class="console">
-	var PATH_BASE = YUI.config.base;
+var PATH_BASE = YUI.config.base;
 
-	var YUI_metadata = {
-		combine: true,
-	    root: './../../build/',
-		comboBase: PATH_BASE + '../lib/yui-combo/combo.php?'
-	};
-	
-	// testing the request
-	YUI(YUI_metadata).use('io');
+var YUI_metadata = {
+	combine: true,
+    root: './../../build/',
+	comboBase: PATH_BASE + '../lib/yui-combo/combo.php?'
+};
+
+// testing the request
+YUI(YUI_metadata).use('io');
 </pre>
 
 <p>The combo.php invoke the YUICombo class to manage the request of the YUI3 loader.js for your and for the YUI3 modules.</p>
