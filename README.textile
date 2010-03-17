@@ -1,6 +1,6 @@
 h1. YUI3 Combo
 
-<p>Inspired on the YUI Development Combo Server (http://github.com/davglass/yui-dev-combo).</p><br/>
+<p>Inspired on the YUI Development Combo Server (http://github.com/davglass/yui-dev-combo).</p>
 <p>Designed to be used to generate the combo file for the request made from loader.js using YUI3. In summary, read the parameters keys (combo files), concatenate them, gzip, cache, set the HTTP headers, print out the combo file.</p>
 
 h2. Example
